@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.stevenmassaro</groupId>
     <artifactId>file-replacer-maven-plugin</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>file-replacer-maven-plugin</name>
     <description>A simple maven plugin which replaces placeholders in a file with the contents of other files.</description>
     <packaging>maven-plugin</packaging>
