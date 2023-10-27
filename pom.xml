@@ -6,8 +6,9 @@
     <groupId>com.stevenmassaro</groupId>
     <artifactId>file-replacer-maven-plugin</artifactId>
     <version>0.0.1</version>
-    <name>file-replacer-maven-plugin</name>
+    <name>${project.artifactId}</name>
     <description>A simple maven plugin which replaces placeholders in a file with the contents of other files.</description>
+    <url>https://github.com/StevenMassaro/file-replacer-maven-plugin</url>
     <packaging>maven-plugin</packaging>
 
     <licenses>
@@ -28,6 +29,14 @@
             <url>https://maven.pkg.github.com/StevenMassaro/file-replacer-maven-plugin</url>
         </repository>
     </distributionManagement>
+
+    <developers>
+        <developer>
+            <name>Steven Massaro</name>
+            <email>steven.massaro.web@gmail.com</email>
+            <organizationUrl>https://www.stevenmassaro.com</organizationUrl>
+        </developer>
+    </developers>
 
     <dependencies>
         <dependency>
